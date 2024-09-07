@@ -4,6 +4,7 @@ from bark import generate_audio, SAMPLE_RATE
 import soundfile as sf
 import os
 
+
 app = FastAPI()
 
 @app.post("/generate-audio/")
